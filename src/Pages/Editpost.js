@@ -45,7 +45,7 @@ const Editpost = () => {
         async function post(){
             try {
                 setDisp('none')
-                await axios.put('http://localhost:8000/post/updatepost',{
+                await axios.put('https://blogappbe.onrender.com/post/updatepost',{
                 ...values,postid
             },{
                 headers:{
@@ -101,7 +101,7 @@ const Editpost = () => {
     async function getData(){
         try {
             setDisp('none')
-            await axios.get(`http://localhost:8000/post/getpost/${postid}`,{
+            await axios.get(`https://blogappbe.onrender.com/post/getpost/${postid}`,{
                 headers:{
                     "access-token":user.token
                 }

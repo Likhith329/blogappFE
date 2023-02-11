@@ -31,7 +31,7 @@ const Postpage = () => {
     async function getData(){
         try {
             setDisp('none')
-            await axios.get(`http://localhost:8000/post/getpost/${postid}`,{
+            await axios.get(`https://blogappbe.onrender.com/post/getpost/${postid}`,{
                 headers:{
                     "access-token":user.token
                 }
@@ -49,7 +49,7 @@ const Postpage = () => {
         async function deleteitem(){
           try {
               setDisp2('none')
-              await axios.delete('http://localhost:8000/post/deletepost', {
+              await axios.delete('https://blogappbe.onrender.com/post/deletepost', {
                 headers: {
                   "access-token":user.token
                 },

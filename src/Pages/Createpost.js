@@ -43,7 +43,7 @@ const Createpost = () => {
         async function post(){
             try {
                 setDisp('none')
-                await axios.post('http://localhost:8000/post/createpost',{
+                await axios.post('https://blogappbe.onrender.com/post/createpost',{
                 ...values
             },{
                 headers:{

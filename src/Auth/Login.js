@@ -36,7 +36,7 @@ const Login = () => {
         async function Login(){
             try {
                 setDisp('none')
-                await axios.post('http://localhost:8000/register/signin',{
+                await axios.post('https://blogappbe.onrender.com/register/signin',{
                 ...values
             }).then(res=>{
                 localStorage.setItem('info',JSON.stringify(res.data))

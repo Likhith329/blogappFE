@@ -21,7 +21,7 @@ const Posts = () => {
     async function getData(){
         try {
             setDisp('none')
-            await axios.get('http://localhost:8000/post/getallposts',{
+            await axios.get('https://blogappbe.onrender.com/post/getallposts',{
                 headers:{
                     "access-token":user.token
                 }
