@@ -1,0 +1,206 @@
+.loginbt,.signupbtn{
+  margin: 10px!important;
+}
+.logincont{
+  height: 100vh;display: flex;flex-direction: column;align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1486673748761-a8d18475c757?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZSUyMGxpbmVkJTIwcm9hZHxlbnwwfHwwfHw%3D&w=1000&q=80');
+  background-repeat: no-repeat;background-size: cover;
+}
+.welcome{
+  font-size: 30px; font-weight: 500; font-family: serif;
+}
+.inpbox{
+  margin: 20px; width: 400px;
+}
+.form{
+  display: flex;align-items: center;flex-direction: column; border-radius: 20px; padding-bottom: 10px;margin-bottom: 10px;
+  width: min-content;background-color: white;height: min-content;opacity: 0.8;margin-top: 20px;
+}
+.loginbtn{
+  width: 400px;margin: 20px!important;
+}
+.error{
+  color: red;
+}
+.brand{
+  color: white;font-size: 50px;
+  font-weight: bold;
+}
+.homenav{
+  display: flex;justify-content: space-between;flex-wrap: wrap;
+  padding: 10px;
+}
+.navbrand{
+  font-size: 30px;margin-bottom: 10px;
+  font-weight: bold;
+}
+.navbtn{
+  margin-right: 20px;
+}
+.post{
+  display: flex;margin-bottom: 20px;border-bottom: 1px solid #747474;padding-bottom: 4px;
+}
+.postpic{
+  max-width: 100%;
+}
+.postdesc{
+  font-size: 20px;word-wrap: break-word;
+  display: -webkit-box;
+    
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.postim{
+  flex: 1;
+}
+.postinfo{
+  flex: 1;margin: 10px;margin-top: 0;
+}
+.authorinfo{
+  color: #747474;
+}
+.author{
+  font-weight: bold;
+}
+.author,.timeago{
+  margin-right: 10px;
+}
+.cinpbox{
+  width: 600px;margin-bottom: 15px;
+}
+.spn{
+  position: absolute;top: 40%;left: 50%;
+}
+.ppic{
+  max-height: 400px;max-width: 100%;margin: 20px;margin-left: 0;margin-right: 0;
+}
+.ptitle{
+  text-align: center;
+}
+.editbtn{
+  margin: 5px;
+}
+.content{
+  word-wrap: break-word;
+}
+.canvasimg{
+  width: 250px;height:250px;border-radius: 50%;
+}
+.profilename{
+  font-size: 30px;
+}
+
+@media (max-width:450px){
+  .navbrand{
+    width: 100%;text-align: center;
+  }
+  .welcome{
+      font-size: 22px; font-weight: 500;
+  }
+  .inpbox{
+      margin: 20px; width: 300px;
+  }
+  .form{
+      border-radius: 15px;margin-top: 10px;
+  }
+  .loginbtn{
+      width: 300px;margin: 15px!important;
+  }
+  .error{
+      color: red;
+  }
+  .brand{
+    font-size: 40px;
+  }
+  .navbrand{
+    font-size: 26px;
+  }
+  .navbtn{
+    margin-right: 10px;padding: 3px;
+  }
+  .posttitle{
+    font-size: 18px;
+  }
+  .postdesc{
+    font-size: small;
+  }
+  .ppic{
+    margin: 10px;
+  }
+  .author,.timeago{
+    font-size: small;
+  }
+  .editbtn{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:650px) {
+  .cinpbox{
+    width: 450px;margin-bottom: 15px;
+  }
+}
+@media (max-width:450px) {
+  .cinpbox{
+    width: 340px;margin-bottom: 15px;
+  }
+}
+
+/*
+.post{
+  display: flex;margin-bottom: 20px;border-bottom: 1px solid #747474;padding-bottom: 4px;
+}
+.postpic{
+  max-width: 100%;
+}
+.postdesc{
+  font-size: 20px;word-wrap: break-word;
+}
+.postim{
+  flex: 1;
+}
+.postinfo{
+  flex: 1;margin: 10px;
+}
+.authorinfo{
+  color: #747474;
+}
+.author{
+  font-weight: bold;
+}
+.author,.timeago{
+  margin-right: 10px;
+}
+*/
+@media (max-width:1000px) {
+
+  .posttitle{
+    font-size: 20px;
+  }
+  .postdesc{
+    font-size: 16px;
+  }
+  .author{
+    font-weight: bold;
+  }
+  .author,.timeago{
+    margin-right: 10px;
+  }
+}
+@media (max-width:770px) {
+  .posttitle{
+    font-size: 16px;
+  }
+  .postdesc{
+    font-size: 12px;
+  }
+  .author,.timeago{
+    margin-right: 10px;font-size: small;
+  }
+}
+@media (max-width:550px) {
+  .post{
+    display: block;
+  }
+}
